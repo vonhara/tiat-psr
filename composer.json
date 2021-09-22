@@ -3,7 +3,6 @@
   "description": "This is PHP-FIG PSR library for PHP 8.1 or newer. Library has improved type safety and maybe little bit better syntax also.",
   "license": "MIT",
   "keywords": [
-    "tiat",
     "psr",
     "php-fig"
   ],
@@ -15,12 +14,12 @@
   },
   "autoload": {
       "psr-4": {
-          "Tiat\\Http\\": "src/"
+          "Tiat\\Psr\\": "src/"
       }
   },
   "autoload-dev": {
       "psr-4": {
-          "TiatTest\\Http\\": "test/"
+          "TiatTest\\Psr\\": "test/"
       }
   }
 }
